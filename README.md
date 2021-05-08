@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-Steve wants to analyze more research for his parents which is to expand the dataset to include the entire stock market over the last few years. He would like us to refactor the original code to loop through all the data one time in order to collect the same information. Also, he wants us making the code more efficient-by taking fewer steps and making the VBA script run faster.
+Steve wants to analyze more research for his parents which is to expand the dataset to include the entire stock market over the last few years. He had the original code to loop through the data to collect all the information he needed. However, he would like us to refactor the original code to collect the same information that the original code provided but with more efficient way by taking fewer steps or making the script run faster.
 
 ## Results
 
@@ -18,7 +18,7 @@ According to the graph, although DQ's yearly return in 2017 was very high, it fe
 The yearly return of the entire stock market has declined in 2018, but only RUN and ENPH have increased. The annual return of RUN increased from 5.5% to 84%, and the daily trading volume in 2018 also increased, indicating that the stock has a continuing upward trend. ENPH, on the other hand, had a positive return in 2018, but its annual return fell from 129.5% in 2017 to 81.9% in 2018. And his daily transaction volume has grown rapidly from 2017 to 2018. This suggests that the stock also has a tendency to rise, but once future daily trading volume drops, its annual return is likely to fall even faster. Therefore, comparing the two stocks, I would recommend Steve's parents to invest in Run, but if his parents can tolerate higher risks, ENPH can also consider investing.
 
 ### Comparison of Original Code and Refactored Code
-The main purpose of code refactoring is to restructures the code into a more simplified or efficient form. Refactoring code improves its internal structure for more efficient execution while the external functionality remains unchanged. 
+The main purpose of code refactoring is to refactor the code into a more simplified or more efficient form. Refactoring code improves its internal structure, thereby increasing execution efficiency, while leaving the external functionality unchanged(Watts & Kidd, 2018). 
 
 #### Execution Times Comparison
 ![Excecution_Times_Comparison](https://user-images.githubusercontent.com/82549782/117507008-7f224c80-af54-11eb-98cc-e6818f3f78cb.png)
@@ -34,6 +34,25 @@ In order to reduce the execution time, the solution to avoid the nested loop is 
 
 ## Summary
 
-### Advantages Vs. Disadvantages of Refactoring Code
+### Advantages and Disadvantages of Refactoring Code
+- Advantages (Cuelogic, 2021):
+  - Refactoring improves the design of software.
+  - Refactoring makes software easier to understand.
+  - Refactoring helps finding bugs and programming faster.
 
-### Pros and Cons Apply to Refactoring the Original VBA Script
+- Disadvantages:
+  - Refactoring required more money and more time.
+
+### Advantages and Disadvantages Apply to Refactoring the Original VBA Script
+- Advantages:
+  - The refactored code run faster.
+  - Helps me understand more clearly the purpose of the original code and how it works.
+
+- Disadvantages:
+  - Takes a long time to refactor.
+  - New bugs might appeared.
+
+## References
+Cuelogic. “What Is Refactoring and Why Is It Important?” _Cuelogic Technologies Pvt. Ltd._, Cuelogic Technologies, 17 Jan. 2021, www.cuelogic.com/blog/what-is-refactoring-and-why-is-it-important. 
+
+Watts, S., & Kidd, C. “What Is Code Refactoring? How Refactoring Resolves Technical Debt.” _BMC Blogs_, 19 Mar. 2018, www.bmc.com/blogs/code-refactoring-explained/.
