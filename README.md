@@ -45,7 +45,7 @@ In order to reduce the execution time, the solution to avoid the nested loop is 
 
 ### Advantages and Disadvantages Apply to Refactoring the Original VBA Script
 - Advantages:
-  - The refactored code run faster.
+  - The refactored code runs faster.
   - Helps me understand more clearly the purpose of the original code and how it works.
 
 - Disadvantages:
